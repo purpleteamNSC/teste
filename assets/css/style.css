@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+
+html{
+    font-size: 62.5%;
+    background: url(https://pipocasclub.com.br/wp-content/uploads/2019/10/netflix-3.jpg);
+    background-position: top center;
+    
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.logo{
+    font-size: 3rem;
+    font-weight: bold;
+    color: red;
+}
+
+.entrar{
+    background-color: red;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+
+/* ESTILIZANDO O CONTEUDO */
+.textos{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textos h1,h2{
+    font-size: 5rem;
+    letter-spacing: 1px;
+}
+
+.textos h3{
+    margin-top: 10px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.textos p{
+    margin-top: 10px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+form{
+    margin-top: 10px;
+}
+
+form input{
+    padding: 10px;
+    width: 600px;
+}
+
+form label{
+    background: red;
+    padding: 13px 20px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border-radius: 2px;
+}
